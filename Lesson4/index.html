@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <title>Моя первая страничка HTML</title> <!--- Заголовок странички --->
+        <link rel="stylesheet" href="src/css/style.css" /> <!--- Подключение файла стилей  --->
+    </head>
+    <body>
+    <!--- Форма с методом отправки GET  --->
+        <form method="get" action="index.html" id="fm_1">
+            <input type="text" name="row_1" placeholder="Текст для row_1" /> <br />
+            <input type="password" name="row_2" placeholder="Пароль для row_2" /> <br />
+            <input type="submit" name="btn_sub" value="Отправить" />
+        </form>
+        
+        <hr />
+    <!--- Форма с методом отправки POST  --->
+        <form method="post" action="index.html" id="fm_2">
+            <input type="text" name="row_1" placeholder="Текст для row_1" /> <br />
+            <input type="password" name="row_2" placeholder="Пароль для row_2" /> <br />
+            <input type="submit" name="btn_sub" value="Отправить" />
+        </form>
+        
+        <hr />
+    <!--- Маркированный список. Маркер  •  --->
+        <ul>
+            <li>Line 1</li>
+            <li>Line 2</li>
+            <li>Line 3</li>
+        </ul>
+        
+        <br />
+    <!--- Маркированный список. Маркер  ЦИФРА  --->
+        <ol>
+            <li>Line 1</li>
+            <li>Line 2</li>
+            <li>Line 3</li>
+        </ol>
+    </body>
+</html>
