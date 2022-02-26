@@ -1,0 +1,43 @@
+.header-section{
+    background-color: green;
+    color: black;
+}
+.main-section{
+    background-color: orange;
+    color: black;
+}
+.footer-section{
+    color: black;
+    background-color: purple;
+}
+
+
+.div-header-1{
+    background-color: lime;
+}
+.div-header-2{
+    background-color: yellow;
+}
+.div-header-3{
+    background-color: red;
+}
+
+.div-main-1{
+    background-color: pink;
+}
+.div-main-2{
+    background-color: blue;
+}
+.div-main-3{
+    background-color: cyan;
+}
+
+.div-footer-1{
+    background-color: white;
+}
+.div-footer-2{
+    background-color: gray;
+}
+.div-footer-3{
+    background-color: darkgray;
+}
